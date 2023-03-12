@@ -9,9 +9,7 @@
   (when ok?
     (lsp.clojure_lsp.setup {})
     (lsp.tsserver.setup {})
-    (lsp.sumneko_lua.setup
-      {:cmd ["lua-language-server"]
-       :settings {:Lua {:telemetry {:enable false}}}})
+    (lsp.lua_ls.setup {})
 
     ;; https://www.chrisatmachine.com/Neovim/27-native-lsp/
     (map :gd "lua vim.lsp.buf.definition()")

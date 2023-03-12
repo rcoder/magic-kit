@@ -75,6 +75,8 @@
   :tpope/vim-surround {}
   :tpope/vim-unimpaired {}
   :tpope/vim-vinegar {}
+  :andrewferrier/wrapping.nvim {}
+  :easymotion/vim-easymotion {}
   :w0rp/ale {:mod :ale}
   :wbthomason/packer.nvim {}
   )
