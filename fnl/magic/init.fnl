@@ -24,9 +24,10 @@
 (set nvim.o.sessionoptions "blank,curdir,folds,help,tabpages,winsize")
 (set nvim.o.inccommand :split)
 
+(set vim.g.conjure#extract#tree_sitter#enabled true)
+
 (nvim.ex.set :spell)
 (nvim.ex.set :list)
-
 
 ;;; Mappings
 
@@ -77,6 +78,8 @@
   :tpope/vim-vinegar {}
   :andrewferrier/wrapping.nvim {}
   :easymotion/vim-easymotion {}
+  :sigmaSd/conjure-deno {}
+  ;:nvim-treesitter/nvim-treesitter-textobjects {}
   :w0rp/ale {:mod :ale}
   :wbthomason/packer.nvim {}
   )
